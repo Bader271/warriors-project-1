@@ -8,7 +8,7 @@ pipeline {
 		AWS_S3_BUCKET = 'duihua-s3'
 		 ARTIFACT_NAME = "DuiHua-0.0.1-SNAPSHOT.war"
 		AWS_EB_APP_NAME = 'duihua'
-        AWS_EB_ENVIRONMENT_NAME = 'duihua-env1'
+        AWS_EB_ENVIRONMENT_NAME = 'Duihua-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
 	}
 
