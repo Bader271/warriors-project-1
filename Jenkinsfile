@@ -40,9 +40,9 @@ pipeline {
             steps {
                 sh '''
                 mvn clean verify sonar:sonar \
-                    -Dsonar.projectKey=2022-book \
-                    -Dsonar.host.url=http://ec2-18-219-103-78.us-east-2.compute.amazonaws.com:9000 \
-                    -Dsonar.login=sqp_af51090bb4dd831ad88f4932eded12a658eb7310
+                    -Dsonar.projectKey=project \
+                    -Dsonar.host.url=http://ec2-18-188-1-45.us-east-2.compute.amazonaws.com:9000 \
+                    -Dsonar.login=sqp_3066bd46f0cf3fab4ea27cc30610bf7ac1724dad
                 '''
             }
         }
